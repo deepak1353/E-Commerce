@@ -71,17 +71,22 @@
     cursor: pointer;
 }
 
+.cartitems-promocode{
+    margin-top: 80px;
+}
+
 .cartitems-promocode p{
     color: #555;
+    
 
 }
 
 .cartitems-promobox{
-    width: auto;
-    margin-top: 15px;
+    
+    margin-top:15px;
     padding-left: 0px;
     height: 58px;
-    background: #eaeaea;
+    
 }
 
 .cartitems-promobox input{
@@ -91,11 +96,12 @@
     font-size: 16px;
     width: 300px;
     height: 50px;
+    background-color: #e2e2e2;
 }
 
 .cartitems-promobox button{
     width: 170px;
-    height: 58px;
+    height: 54px;
     font-size: 16px;
     background: black;
     color: white;
@@ -137,19 +143,12 @@
         font-size: 13px;
     }
     .cartitems-promocode{
-        width: auto;
-        max-width: 500px;
-        
-        
+        margin-top: 0px;
     }
-   
+    
     .cartitems-promobox input{
-        width: 80%;
-    }
-    .cartitems-promobox button {
-        width: 120px;
-        margin-left: -50px;
-        
+        background-color: #e2e2e2;
+
     }
 }
 
@@ -162,6 +161,9 @@
     }
     .cartitems-format{
         display: grid;
+    }
+    .cartitems-promobox button{
+        width: 140px;
     }
 
 }
